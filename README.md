@@ -2,6 +2,12 @@
 
 An Edge/Chromium extension that exports the current ChatGPT web conversation to PDF or high-fidelity HTML.
 
+## How it looks
+<img width="640" height="400" alt="show" src="https://github.com/user-attachments/assets/e98f921e-95be-4685-8954-5e16d2e37b05" />
+<img width="640" height="400" alt="exportPDF" src="https://github.com/user-attachments/assets/b97b7fbe-1619-4152-9007-db65e73e3789" />
+<img width="640" height="400" alt="exportHTML" src="https://github.com/user-attachments/assets/96a94a4a-3ccc-486a-8f7f-165186056d88" />
+
+
 ## Features
 
 - One-click export from the browser action popup
@@ -32,6 +38,7 @@ An Edge/Chromium extension that exports the current ChatGPT web conversation to 
 - HTML export builds a DOM snapshot of the visible chat content and inlines key styles.
 - PDF export renders the conversation into a print-friendly preview page.
 - `background/background.js` stores export payloads in temporary session storage and opens the export page.
+
 
 ## Known Limitations
 
