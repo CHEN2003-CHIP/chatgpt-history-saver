@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT History Saver</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup-shell">
+      <section class="hero">
+        <p class="eyebrow">Edge Extension</p>
+        <h1>ChatGPT History Saver</h1>
+        <p class="subtitle">Export the current conversation as a readable PDF or standalone HTML page.</p>
+      </section>
+
+      <section class="status-card">
+        <div id="pageStatus" class="status-pill">Checking current tab...</div>
+        <p id="statusMessage" class="status-message">Please wait while the extension inspects the page.</p>
+      </section>
+
+      <section class="actions">
+        <button data-export-type="EXPORT_PDF" class="action-button primary">Export PDF</button>
+        <button data-export-type="EXPORT_HTML" class="action-button">Export HTML</button>
+      </section>
+
+      <section id="warningBox" class="warning-box hidden"></section>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
