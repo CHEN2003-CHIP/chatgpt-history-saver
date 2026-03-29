@@ -13,6 +13,36 @@ ChatGPT History Saver is an Edge/Chromium extension built for people who want to
 - Keep code blocks, text layout, and images more readable than plain copy-paste
 - Archive important chats for research, documentation, or personal knowledge bases
 
+## Install
+
+### Option 1: Install from the Edge Add-ons store
+
+1. Open Microsoft Edge.
+2. Go to the Edge Add-ons store.
+3. Search for `ChatGPT History Saver`.
+4. Open the extension page and click `Get`.
+5. After installation, pin the extension to the Edge toolbar for quick access.
+
+### Option 2: Download the ZIP and load it manually in Edge
+
+1. Download the project ZIP from GitHub.
+2. Extract the ZIP to a local folder.
+3. Open `edge://extensions/` in Microsoft Edge.
+4. Turn on `Developer mode` in the top-right corner.
+5. Click `Load unpacked`.
+6. Select the extracted project folder.
+7. After installation, pin the extension to the Edge toolbar.
+
+## How to use
+
+1. Open a ChatGPT conversation page on `chatgpt.com` or `chat.openai.com`.
+2. Click the `ChatGPT History Saver` icon in the Edge toolbar.
+3. Choose one of the available export options:
+   - `Export HTML`: creates a high-fidelity static HTML snapshot for offline reading.
+   - `Export PDF`: opens a print-friendly preview page and lets you save the conversation as PDF.
+4. For HTML export, review the preview and click `Download HTML`.
+5. For PDF export, use the browser print dialog and choose `Save as PDF`.
+
 ## How it looks
 <img width="640" height="400" alt="show" src="https://github.com/user-attachments/assets/e98f921e-95be-4685-8954-5e16d2e37b05" />
 <img width="640" height="400" alt="exportPDF" src="https://github.com/user-attachments/assets/b97b7fbe-1619-4152-9007-db65e73e3789" />
@@ -44,14 +74,6 @@ ChatGPT History Saver is an Edge/Chromium extension built for people who want to
 - `export/export.html` renders the export preview page.
 - HTML export focuses on a high-fidelity static snapshot workflow.
 - PDF export opens a print-friendly preview page for browser-native PDF saving.
-
-## Install locally in Edge
-
-1. Open `edge://extensions/`
-2. Enable `Developer mode`
-3. Click `Load unpacked`
-4. Select this project folder
-5. Open a ChatGPT conversation page and test `Export HTML` or `Export PDF`
 
 ## Project structure
 
